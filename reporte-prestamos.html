@@ -101,12 +101,12 @@
 
         <script type="text/javascript">
             if (localStorage.getItem("token") === null) {
-                window.location.href = "index.html";
+                window.location.href = "index.php";
             }
 
             $('#cerrar_sesion').on('click', function(e) {
                 localStorage.clear();
-                window.location.href = "index.html";
+                window.location.href = "index.php";
             });
 
             $.ajax({
