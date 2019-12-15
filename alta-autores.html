@@ -120,7 +120,7 @@
                         formData.append('archivo', $('input[type=file]')[0].files[0]);
                         $.ajax({
                             type: 'PUT',
-                            url: `https://api-rest-biblioteca-180394.herokuapp.com/autor/upload/autor/${resp.autorDB._id}`,
+                            url: `https://api-rest-biblioteca-180394.herokuapp.com/upload/autor/${resp.autorDB._id}`,
                             data: formData,
                             processData: false,
                             contentType: false,
